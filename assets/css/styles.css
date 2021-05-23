@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 400px;
+  width: 270px;
+  background-color: rgba(255,255,255,0.06);
+  backdrop-filter: blur(20px);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 8px;
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  font-family: 'Poppins',sans-serif;
+  z-index: 100;
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.card-img {
+  height: 120px;
+  width: 120px;
+  background-color: rgba(255,255,255,0.06);
+  backdrop-filter: blur(20px);
+  position: absolute;
+  margin: 40px auto 20px auto;
+  left: 0;
+  right: 0;
+  /*top: 0;*/
+  /*bottom: 0;*/
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(20px);
+  /*margin: auto;*/
+}
+
+.card-img img {
+  height: 86%;
+  /*border-radius: 50%;*/
+  /*margin-left: %;*/
+  /*margin-top: 7%;*/
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.desc {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 180px;
+}
+
+.primary-text {
+  color: #d5d5d5;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  margin: 5px 0;
+}
+
+.secondary-text {
+  color: #c0c0c0;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 36px 0;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.social-list a {
+  padding: 5px;
+}
+
+body {
+  background: #19172e;
+  background: #161616;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(#f9d924,#ff2c24);
+  animation: animate 5s ease-in-out infinite;
+  margin-bottom: 75px;
+  margin-left: 50px;
+  background:linear-gradient(#FF99AC,#FF4365) ;
+}
+
+section::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(#01d6ff,#0f24f9);
+  animation: animate 5s ease-in-out infinite;
+  animation-delay: -2.5s;
+  margin-top: 75px;
+  margin-right: 50px;
+  background:linear-gradient(#828DED,#1F31D6) ;
+}
+
+@keyframes animate {
+  0%, 100% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
