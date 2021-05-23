@@ -99,11 +99,11 @@ section::before {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: linear-gradient(#f9d924,#ff2c24);
+  background: linear-gradient(#72f924,#24ff78);
   animation: animate 5s ease-in-out infinite;
   margin-bottom: 75px;
   margin-left: 50px;
-  background:linear-gradient(#FF99AC,#FF4365) ;
+  background:linear-gradient(#99ffe0,#43ff7b) ;
 }
 
 section::after {
@@ -114,12 +114,12 @@ section::after {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background: linear-gradient(#01d6ff,#0f24f9);
+  background: linear-gradient(#0ccff7,#0f24f9);
   animation: animate 5s ease-in-out infinite;
   animation-delay: -2.5s;
   margin-top: 75px;
   margin-right: 50px;
-  background:linear-gradient(#828DED,#1F31D6) ;
+  background:linear-gradient(#db83db,#1F31D6) ;
 }
 
 @keyframes animate {
